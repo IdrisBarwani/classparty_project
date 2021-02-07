@@ -1,0 +1,134 @@
+body {
+    font-family: 'Exo 2';font-size: 22px;
+    color: #000645;
+}
+
+div.inline { float:left; }
+
+.section-1 {
+    height: 650;
+}
+
+.section-wrapper-left {
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 50%;
+}
+
+/* .text-wrapper {
+    width: 50%;
+} */
+
+.topic-text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.heading-text {
+    font-weight: 800;
+    font-size: 70px;
+    margin: 0;
+    line-height: 1;
+}
+
+.description-text {
+    font-size: 15;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.gradient-bg {
+    background-color: #e9eafa;
+    width: 75%;
+    height: 600px;
+    position: absolute;
+    transform: skewY(3deg);
+    z-index: -1;
+    top: -25;
+    left: 0;
+}
+
+.image-skew-girl-laptop{
+    position: absolute;
+    z-index: 2;
+    margin-top:100px;
+    /* margin-left:100px; */
+    /* -ms-transform: skew(0deg,6deg);
+    -webkit-transform: skew(0deg,6deg);
+    transform: skew(0deg,6deg); */
+    /*outline:1px solid #fff;*/
+    width: 350px;
+    height: 800px;
+    max-height: 600;
+    /* top: -40; */
+    right: 0;
+    overflow: hidden;
+  }
+
+.image-girl-laptop{
+    position: absolute;
+    left:-200px;
+    bottom: 0;
+    background-image: url("../images/smiling-girl-working-at-laptop-in-cafe-cropped.jpg");
+    background-repeat: no-repeat;
+    width:815px;
+    height: 780px;  
+    -ms-transform: skew(0deg,6deg) scale(0.6);
+    -webkit-transform: skew(0deg,6deg) scale(0.6);
+    transform: skew(0deg,6deg) scale(0.6);
+}
+
+.blue-dots-image {
+    position: absolute;
+    z-index: 1;
+    transform: rotate(90deg);
+    filter: brightness(0.6) hue-rotate(53deg);
+    right: 200;
+    top: -25;
+}
+
+.product-wrapper {
+    position: absolute;
+    z-index: 3;
+    background: white;
+    top: 270;
+    right: 300;
+    transform: skewY(5deg);
+}
+
+.product-image-flower-pot {
+    width: 130;
+    margin-top: -80;
+    margin-left: 25;
+    transform: skewY(-5deg);
+}
+
+.flower-product-text {
+    font-size: 11;
+    text-align: center;
+    transform: skewY(-5deg);
+}
+
+.arrow-down {
+    position: absolute;
+    width: 40px;
+    left: 50%;
+    top: 470;
+    animation: MoveUpDown 1s linear infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      top: 465;
+    }
+    50% {
+      top: 475;
+    }
+  }
+
+.topic-text-bold-center {
+    text-align: center;
+    font-weight: 600;
+}
