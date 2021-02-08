@@ -11,10 +11,8 @@ $(document).ready(function() {
 
         // Directional blur and height streach on main section
         $('.section-1').css({
-            // "-webkit-filter": "blur(5px)",
             // "filter": "blur(5px)"
-            "transform": "scaleY(1.8)",
-            // "flex-direction": "row",
+            "transform": "scaleY(1.8)",,
             "filter": "blur(1px)",
             "transition-duration": "0.6s"
         });
@@ -33,7 +31,6 @@ $(document).ready(function() {
         $('.coffee-cup-image').css({
         animation: "bounce 1s",
         "animation-duration": "ease"
-        // opacity: "1"
         });
     }, { offset: '75%' });
 
