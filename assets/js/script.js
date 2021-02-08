@@ -28,6 +28,13 @@ $(document).ready(function() {
         }, 400);
     });
 
-    
+    //Activate animation when the content scrolls into view
+    $('.coffee-cup-image').waypoint(function() {
+        $('.coffee-cup-image').css({
+        animation: "bounce 1s",
+        "animation-duration": "ease"
+        // opacity: "1"
+        });
+    }, { offset: '75%' });
 
 });
